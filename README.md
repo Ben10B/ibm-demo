@@ -1,34 +1,68 @@
-# Stranger Things - FED Exercise
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Thank you for your interest in IBM. We are excited to learn more about you!
+## Available Scripts
 
-This exercise is intended to help us get a better understanding of your approach to design and front-end development. There is no right or wrong way to complete this project, and there are no tricks or sneaky bits to trip you up — we just want to see how you build things.
+In the project directory, you can run:
 
-Feel free to use Google, Stack Overflow, or other resources to complete this project. We want to know how you develop normally, not how you work from memory or in extraordinary  circumstances.
+### `npm start`
 
-### Task
-Create a website to display content about a Netflix original that is popular in our RTP-Durham office. Your audience is the casual web visitor who’s looking for something to watch on TV.
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-We've provided a sample layout to help you get started. Feel free to implement towards the layout or create your own.
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-### Guidelines
- - We anticipate this exercise will take about 4-6 hours, over the course of 2-3 days
- - Do NOT exceed 4-6 hours; we don't want to be disrespectful of your time
- - Please don't use jQuery
- - Aside from jQuery, feel free to use any tools you prefer to complete the project, including frameworks, preprocessors, or libraries
+### `npm test`
 
-### Requirements
- - Render from the content provided in [data/en_US.json](./data/en_US.json).  NOTE: We ask that you don’t change the structure of the JSON. Feel free to render additional content from other sources if you'd like or to render statically (e.g. button labels, section headings, etc.) where you see fit.
- - Be creative and play with the UI. Again, there's no "right way" to build this.
- - Your website should:
-    - be responsive
-    - have a navigation
-    - offer translated content -- We’ve provided you with content for a mock language (la_PG - Pig Latin). Any text you add to your page that is not coming from the provided JSON does not need to be translated.
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-The last detail is the most important... We want you to have fun with it!  We want to see your personality in the code, UI/UX, and the little things you do to make this simple content come to life.
+### `npm run build`
 
-### Submission Requirements
-Post your solution to a public repository on [Github](https://github.com/). Send the repository URL back to the same person who sent you these instructions.
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Questions?
-If there's anything that's unclear or if you just have a general question, we're just an email away! :)
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
